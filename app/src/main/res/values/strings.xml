@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Palette Activity</string>
+    <string name="second_title">Canvas Activity</string>
+    <string name="main_title">Color Changing App</string>
+</resources>
