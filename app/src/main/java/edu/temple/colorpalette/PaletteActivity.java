@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -17,7 +18,6 @@ public class PaletteActivity extends AppCompatActivity {
     ArrayList<String> colors;
     GridView gv;
     public static final String c = "test";
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +47,10 @@ public class PaletteActivity extends AppCompatActivity {
        gv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
            @Override
            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                int str = 0;
+                intent.putExtra("pos", position);
                intent.putExtra(c, colors.get(position));
+
                startActivity(intent);
            }
        });

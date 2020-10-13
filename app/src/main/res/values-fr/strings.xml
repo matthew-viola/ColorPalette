@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activité de la palette</string>
+    <string name="second_title">Activité de toile</string>
+    <string name="main_title">Application de changement de couleur</string>
+    <string name="pa">Activité de la palette</string>
+    <string name="maintext">Cliquez sur une couleur ci-dessous pour lancer la toile</string>
+    <string name="lightgray">gris clair</string>
+    <string name="blue">bleu</string>
+    <string name="yellow">Jaune</string>
+    <string name="magenta">magenta</string>
+    <string name="green">vert</string>
+    <string name="cyan">cyan</string>
+    <string name="gray">gris</string>
+    <string name="red">rouge</string>
+    <string name="white">blanc</string>
+    <string name="darkgray">gris foncé</string>
+</resources>
