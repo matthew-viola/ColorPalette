@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -23,17 +24,20 @@ public class PaletteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final Intent intent = new Intent(this, CanvasActivity.class);
+        Resources res = this.getResources();
+        setTitle(res.getString(R.string.pa));
+
         colors = new ArrayList<>();
-        colors.add("lightgray");
-        colors.add("blue");
-        colors.add("yellow");
-        colors.add("magenta");
-        colors.add("green");
-        colors.add("cyan");
-        colors.add("gray");
-        colors.add("red");
-        colors.add("white");
-        colors.add("darkgray");
+        colors.add(res.getString(R.string.lightgray));
+        colors.add(res.getString(R.string.blue));
+        colors.add(res.getString(R.string.yellow));
+        colors.add(res.getString(R.string.magenta));
+        colors.add(res.getString(R.string.green));
+        colors.add(res.getString(R.string.cyan));
+        colors.add(res.getString(R.string.gray));
+        colors.add(res.getString(R.string.red));
+        colors.add(res.getString(R.string.white));
+        colors.add(res.getString(R.string.darkgray));
 
         gv = findViewById(R.id.palette);
 

@@ -2,4 +2,16 @@
     <string name="app_name">Palette Activity</string>
     <string name="second_title">Canvas Activity</string>
     <string name="main_title">Color Changing App</string>
+    <string name="pa">Palette Activity</string>
+    <string name="maintext">Click a color below to launch the canvas</string>
+    <string name="lightgray">lightgray</string>
+    <string name="blue">blue</string>
+    <string name="yellow">yellow</string>
+    <string name="magenta">magenta</string>
+    <string name="green">green</string>
+    <string name="cyan">cyan</string>
+    <string name="gray">gray</string>
+    <string name="red">red</string>
+    <string name="white">white</string>
+    <string name="darkgray">darkgray</string>
 </resources>

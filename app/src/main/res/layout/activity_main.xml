@@ -18,4 +18,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/lblMain"
+        android:layout_width="169dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/maintext"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
